@@ -1,0 +1,7 @@
+# Importa um arquivo csv
+
+import pandas as pd 
+
+df = pd.read_csv("ClassicDisco.csv")
+
+print(df.to_string())
